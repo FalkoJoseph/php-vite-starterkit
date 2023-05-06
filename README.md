@@ -9,5 +9,18 @@
 
 ## Usage
 
-- `npm run dev` - Start dev server
-- `npm run build` - Build for production
+Run development server
+
+```sh
+npm run dev
+```
+
+Build production files
+
+```sh
+npm run build
+```
+
+## Credits
+
+Copyright Falko Joseph (c) 2023
