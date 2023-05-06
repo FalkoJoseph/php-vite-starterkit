@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl">Vue app cats knoekels</h1>
+    <h1 class="text-3xl">PHP Vite Starterkit</h1>
     <div class="count">
       <p>{{ count }}</p>
     </div>
