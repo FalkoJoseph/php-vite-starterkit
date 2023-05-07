@@ -1,0 +1,21 @@
+{
+  "src/assets/svg/vite.svg": {
+    "file": "assets/vite.svg",
+    "src": "src/assets/svg/vite.svg"
+  },
+  "src/main.css": {
+    "file": "assets/main.css",
+    "src": "src/main.css"
+  },
+  "src/main.js": {
+    "assets": [
+      "assets/vite.svg"
+    ],
+    "css": [
+      "assets/main.css"
+    ],
+    "file": "assets/main.js",
+    "isEntry": true,
+    "src": "src/main.js"
+  }
+}
