@@ -4,7 +4,9 @@
     <div class="count">
       <p>{{ count }}</p>
     </div>
-    <button @click="increment">Counter</button>
+    <button class="p-2 text-white bg-gray-900" @click="increment">
+      Counter
+    </button>
     {{ logo }}
     <img :src="`dist${logo}`" class="logo vue" alt="Vue logo" />
   </div>
