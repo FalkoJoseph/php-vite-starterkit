@@ -2,9 +2,11 @@
   <div>
     <h1 class="text-3xl">PHP Vite Starterkit</h1>
     <div class="count">
-      <p>{{ count }}</p>
+      <p>
+        {{ count }}
+      </p>
     </div>
-    <button class="bg-gray-900 p-2 text-white" @click="increment">
+    <button class="p-2 text-white bg-gray-900" @click="increment">
       Counter
     </button>
     {{ vite }}
