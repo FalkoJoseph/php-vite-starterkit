@@ -4,22 +4,22 @@
     <div class="count">
       <p>{{ count }}</p>
     </div>
-    <button class="p-2 text-white bg-gray-900" @click="increment">
+    <button class="bg-gray-900 p-2 text-white" @click="increment">
       Counter
     </button>
-    {{ logo }}
-    <img :src="`dist${logo}`" class="logo vue" alt="Vue logo" />
+    {{ vite }}
+    <img :src="`${vite}`" alt="Vite" />
   </div>
 </template>
 
 <script>
-import logo from "./assets/svg/vite.svg";
+import vite from "./assets/svg/vite.svg";
 
 export default {
   data() {
     return {
       count: 0,
-      logo,
+      vite,
     };
   },
   computed: {},
