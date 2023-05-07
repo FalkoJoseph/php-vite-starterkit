@@ -3,11 +3,5 @@
 @tailwind utilities;
 
 body {
-  background: gray;
-}
-
-.count {
-  & p {
-    color: red;
-  }
+  background: teal;
 }
